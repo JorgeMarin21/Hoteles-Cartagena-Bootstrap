@@ -4,7 +4,9 @@
   "description": "Nuestro primer proyecto de nodeJs",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+
   },
   "repository": {
     "type": "git",
@@ -12,5 +14,10 @@
   },
   "author": "Jorge Marin",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/jorgemaring/guiahoteles#readme"
+  "homepage": "https://bitbucket.org/jorgemaring/guiahoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
+
+
