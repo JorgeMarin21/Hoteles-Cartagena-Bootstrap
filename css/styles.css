@@ -1,0 +1,39 @@
+.jumbotron{
+    background-color: blueviolet;
+    color: white;
+}
+
+.display-4{
+    font-weight: 600;    
+}
+.btn-primary{
+    background-color: brown;
+    color: white;
+}
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+    font-weight: 600;
+}
+hr{
+    color: purple;
+    background-color: purple;
+}
+
+.card-hotel{    
+    padding: 10px 10px 10px 10px;
+    flex: 1 250px;
+}
+
+.btn-reserva {
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+}

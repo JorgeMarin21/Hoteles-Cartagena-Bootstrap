@@ -8,72 +8,177 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 
 <body>
     <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-4">Hoteles</h1>
-            <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+
+        <h1 class="display-4">Hoteles</h1>
+    </div>
+    <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
                 to featured content or information.</p>
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <p class="lead">
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
             </p> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <p class="lead">Bienvenido a la página de Hoteles.</p>
+            </div>
+            <div class="col-sm col-lg-12">
+                <p>Aquí podrás reservar la habitación que deseas en el hotel que deseas.</p>
+            </div>
+            <div class="col-sm">
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Ver más</a>
+                </p>
+            </div>
+        </div>
+        <hr class="my-4">
 
-            <div class="row">
-                <div class="col-sm">
-                    <p class="lead">Bienvenido a la página de Hoteles.</p>
+        <div class="row">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h1>Hotel Hilton</h1>
+                    <p>El Hotel Hilton Cartagena se encuentra en la península de El Laguito, por lo que ofrece una
+                        magnífica
+                        vista del Caribe desde tres lados.</p>
                 </div>
-                <div class="col-sm">
-                    <p>Aquí podrás reservar la habitación que deseas en el hotel que deseas.</p>
-                </div>
-                <div class="col-sm">
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Ver más</a>
-                    </p>
+                <div>
+                    <a class="btn btn-primary btn-lg  btn-reserva"
+                        href="https://www.hiltonhotels.com/es_XM/colombia/hilton-cartagena-hotel/" role="button">Ver
+                        más</a>
                 </div>
             </div>
-            <hr class="my-4">
-
-            <div class="row">
-                <div class="col-6">
-                    <h1>Hotel Hilton</h1>
-                    <p>El mejor hotel con vista al mar</p>
-                    <a class="btn btn-primary btn-lg"
-                        href="https://www.hiltonhotels.com/es_XM/colombia/hampton-by-hilton-medellin/" role="button">Ver
-                        más</a>
-                </div>
-                <div class="col-6">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
                     <h1>Hotel Caribe</h1>
-                    <p>El hotel más antiguo de Cartagena</p>
-                    <a class="btn btn-primary btn-lg"
-                        href="https://www.hiltonhotels.com/es_XM/colombia/hampton-by-hilton-medellin/" role="button">Ver
+                    <p>Este hotel refinado, con vista al mar Caribe, se ubica a 5 km de la fortaleza Castillo de San
+                        Felipe
+                        de Barajas y a 4 km de tiendas y restaurantes en la Plaza Santo Domingo.</p>
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelcaribe.com/" role="button">Ver
                         más</a>
                 </div>
+            </div>
 
-                <div class="col-6">
-                    <h1>Hotel Hilton</h1>
-                    <p>El mejor hotel con vista al mar</p>
-                    <a class="btn btn-primary btn-lg"
-                        href="https://www.hiltonhotels.com/es_XM/colombia/hampton-by-hilton-medellin/" role="button">Ver
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h1>Hotel Ibis Cartagena</h1>
+                    <p>Este hotel informal de altura se ubica a 5 minutos a pie de una playa en el mar Caribe y a 3 km
+                        del
+                        aeropuerto internacional Rafael Núñez y de la animada plaza Santo Domingo.</p>
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-lg btn-reserva"
+                        href="https://ibis-cartagena-marbella.hotels-cartagenacolombia.com/es/" role="button">Ver
                         más</a>
                 </div>
-                <div class="col-6">
-                    <h1>Hotel Caribe</h1>
-                    <p>El hotel más antiguo de Cartagena</p>
-                    <a class="btn btn-primary btn-lg"
-                        href="https://www.hiltonhotels.com/es_XM/colombia/hampton-by-hilton-medellin/" role="button">Ver
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h1>Hotel Holiday Inn</h1>
+                    <p>Bienvenidos al Hotel Holiday Inn Cartagena Morros. Tenemos el agrado de ofrecerle el Hotel más
+                        moderno para negocios o placer, en frente de una de las playas más lindas del mundo</p>
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-lg btn-reserva" href="https://www.holidaycartagena.co/"
+                        role="button">Ver
                         más</a>
+                </div>
+            </div>
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h1>Hotel Charleston Santa Teresa</h1>
+                    <p>Ubicado en el corazón de la ciudad amurallada, oferciendo habitaciones de lujo, servicios y
+                        facilidades exclusivas</p>
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelcharlestonsantateresa.com/"
+                        role="button">Ver más</a>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h1>Hotel Decameron</h1>
+                    <p>El Hotel Decameron Cartagena está en Colombia, enfrente de la playa de Bocagrande. Ofrece 280
+                        habitaciones, divididas en categoría estándar y junior suites, ...</p>
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-lg btn-reserva"
+                        href="https://www.decameron.com/es/co-destinos/colombia/cartagena/decameron-cartagena"
+                        role="button">Ver más</a>
+                </div>
+            </div>
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h1>Hotel Costa del Sol</h1>
+                    <p>Somos un importante y reconocido hotel ubicado en un exclusivo sector de Bocagrande de la ciudad
+                        de
+                        Cartagena. No dude en venir a conocernos ahora ...</p>
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelcostadelsolcartagena.com/"
+                        role="button">Ver más</a>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h1>Hotel Dann Carlton</h1>
+                    <p>Nuestro Hotel en Cartagena, es único con acceso directo a la playa. El Hotel Dann Cartagena
+                        ofrece
+                        todo lo necesario para su viaje de negocios o vacaciones.</p>
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelesdann.com/dann-cartagena/"
+                        role="button">Ver más</a>
                 </div>
             </div>
         </div>
+
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/popper.js/dist/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-12 col-sm-4 d-flex flex-column">
+                <h3>Contactanos</h3>
+                <a href="https://web.whatsapp.com/">WhatsApp</a>
+                <a href="http://www.facebook.com/">Facebook</a>
+                <a href="http://www.instagram.com/">WhatsApp</a>
+                <br><br>
+            </div>
 
+            <div class="col-12 col-sm-4 d-flex flex-column">
+                <h3>Dirección</h3>
+                <address>
+                    <p>Medellín, Antioquia, Colombia </p>
+                    <p>Tel: +57 3215146371</p>
+                    <p>E-mail: Jorge_marin@live.com</p>
+                </address>
+                <br><br>
+            </div>
+
+            <div class="col-12 col-sm-4 d-flex flex-column">
+                <h3>Información</h3>
+                <a href="https://web.whatsapp.com/">Quienes somos</a>
+                <a href="http://www.facebook.com/">Precios</a>
+                <a href="http://www.instagram.com/">Términos y condiciones</a>
+                <a href="http://www.twitter.com/">Contacto</a>
+                <br><br>
+            </div>
+        </div>
+    </footer>
 </body>
+
 
 </html>
