@@ -23,10 +23,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-                <li class="nav-item active"><a href="./about.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item "><a href="./about.html" class="nav-link">Nosotros</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Precios</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Términos y condiciones</a></li>
-                <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
+                <li class="nav-item active"><a href="./contacto.html" class="nav-link">Contacto</a></li>
             </ul>
         </div>
     </nav>
@@ -38,19 +38,61 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
             </ol>
         </nav>
-        <h1 style="font-weight: 700;">Nosotros</h1>
-        <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat id urna eget faucibus. Integer eget enim laoreet, 
-            vulputate risus ac, tempor ante. Praesent malesuada sollicitudin dolor non vehicula. Maecenas accumsan, dolor eu sodales eleifend,
-            nulla odio euismod nulla, sed vestibulum justo turpis vitae est. Donec lobortis viverra nisl, ultricies aliquet orci luctus eget. 
-            Aliquam erat volutpat. Quisque porttitor at eros bibendum volutpat. Nam lobortis erat sit amet nunc faucibus tristique. Nam ante metus, 
-            eleifend et nulla pulvinar, hendrerit venenatis mi. Morbi ut dolor iaculis, viverra turpis sed, condimentum felis. In ultricies leo et justo feugiat, 
-            eu vulputate metus posuere. Nunc eros mi, aliquam vitae porttitor quis, rhoncus quis ligula. Suspendisse pellentesque ipsum id mauris pulvinar tempus. 
-            Morbi a dolor vel augue molestie tempor ac nec elit.
-        </span>
+        <h1>Dejame tu comentario</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre"
+                    placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido"
+                    placeholder="Ingrese su apellido">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email"
+                placeholder="Ingrese su email">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-8">
+                    <label for="direccion">Direccion</label>
+                    <input type="text" class="form-control" id="direccion"
+                    placeholder="Ingrese su dirección">
+                </div>
+                <div class="form-group col-sm-4">
+                    <label for="ciudad">Ciudad</label>
+                    <select id="ciudad" class="form-control">
+                        <option selected>Medellín</option>
+                        <option selected>Bogotá</option>
+                        <option selected>Cali</option>
+                        <option selected>Cartagena</option>
+                        <option selected>Barranquilla</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" class="form-control" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" id="gridCheck" value="checkedValue">
+                    Quiero que me contacten
+                  </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+        
     </div>
     <footer>
         <div class="row">
