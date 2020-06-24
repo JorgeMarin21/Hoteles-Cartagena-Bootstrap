@@ -1,12 +1,15 @@
 .jumbotron{
     background-color: blueviolet;
     color: white;
-    margin-top: 52px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 .display-4{
-    font-weight: 600;    
+    font-weight: 600; 
 }
+
+
 .btn-primary{
     background-color: brown;
     color: white;

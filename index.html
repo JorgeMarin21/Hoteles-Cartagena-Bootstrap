@@ -18,8 +18,8 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">Hoteles</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown"
-                aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -33,7 +33,14 @@
         </div>
     </nav>
     <div class="jumbotron">
-        <h1 class="display-4">Hoteles Cartagena</h1>
+        <div class="row">
+            <div class="col-2" style="display: flex; align-items: center;">
+                <img src="/assets/images/icono.png" class="img-fluid" alt="icono" width="251" height="300"></div>
+
+            <div class="col-10" style="display: flex; align-items: center;">
+                <h1 class="display-4">Hoteles Cartagena</h1>
+            </div>
+        </div>
     </div>
     <div class="container">
         <nav aria-label="breadcrumb">
@@ -58,16 +65,19 @@
         <hr class="my-4">
 
         <div class="row">
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1>Hotel Hilton</h1>
+                    <h1 class="card-title">Hotel Hilton</h1>
+                    <h5 class="card-subtitle text-muted">Cartagena</h5>
+                </div>
+                <div>
+                    <img src="https://asset3.zankyou.com/images/mag-post/602/9ae0/685//-/co/wp-content/uploads/2017/12/hilton-3.png"
+                        alt="hiltonCtg">
                 </div>
                 <div>
                     <p>El Hotel Hilton Cartagena se encuentra en la península de El Laguito, por lo que ofrece una
                         magnífica
-                        vista del Caribe desde tres lados.</p></div>
-                <div>
-                    <img src="https://asset3.zankyou.com/images/mag-post/602/9ae0/685//-/co/wp-content/uploads/2017/12/hilton-3.png" alt="hiltonCtg">
+                        vista del Caribe desde tres lados.</p>
                     <a class="btn btn-primary btn-lg  btn-reserva"
                         href="https://www.hiltonhotels.com/es_XM/colombia/hilton-cartagena-hotel/" role="button"
                         target="_blank">Ver
@@ -75,117 +85,125 @@
                     </a>
                 </div>
             </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1>Hotel Caribe</h1>
-                </div>
-                <div>
-                            <p>Este hotel refinado, con vista al mar Caribe, se ubica a 5 km de la fortaleza Castillo de San
-                                Felipe
-                                de Barajas y a 4 km de tiendas y restaurantes en la Plaza Santo Domingo.</p>
-
+                    <h1 class="card-title">Hotel Caribe</h1>
+                    <h5 class="card-subtitle text-muted">Cartagena</h5>
                 </div>
                 <div>
                     <img src="https://viajescape.com.co/wp-content/uploads/2019/06/imagen_id_5774.jpg" alt="caribeCtg">
+                </div>
+                <div>
+                    <p>Este hotel refinado, con vista al mar Caribe, se ubica a 5 km de la fortaleza Castillo de San
+                        Felipe
+                        de Barajas y a 4 km de tiendas y restaurantes en la Plaza Santo Domingo.</p>
                     <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelcaribe.com/" role="button"
                         target="_blank">Ver
                         más</a>
                 </div>
             </div>
 
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1>Hotel Ibis Cartagena</h1>
+                    <h1 class="card-title">Hotel Ibis Cartagena</h1>
+                    <h5 class="card-subtitle text-muted">Cartagena</h5>
+                </div>
+                <div>
+                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/252/252168622.jpg" alt="ibisCtg">
+
                 </div>
                 <div>
                     <p>Este hotel informal de altura se ubica a 5 minutos a pie de una playa en el mar Caribe y a 3 km
                         del
                         aeropuerto internacional Rafael Núñez y de la animada plaza Santo Domingo.</p>
-                    
-                </div>
-                <div>
-                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/252/252168622.jpg" alt="ibisCtg">
                     <a class="btn btn-primary btn-lg btn-reserva"
                         href="https://ibis-cartagena-marbella.hotels-cartagenacolombia.com/es/" role="button"
                         target="_blank">Ver
                         más</a>
                 </div>
             </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1>Hotel Holiday Inn</h1>
+                    <h1 class="card-title">Hotel Holiday Inn</h1>
+                    <h5 class="card-subtitle text-muted">Cartagena</h5>
                 </div>
                 <div>
-                            <p>Bienvenidos al Hotel Holiday Inn Cartagena Morros. Tenemos el agrado de ofrecerle el Hotel más
-                                moderno para negocios o placer, en frente de una de las playas más lindas del mundo</p>
-
+                    <img src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/18/52/1852101_v4.jpeg"
+                        alt="holidayInnCtg">
                 </div>
                 <div>
-                    <img src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/18/52/1852101_v4.jpeg" alt="holidayInnCtg">
+                    <p>Bienvenidos al Hotel Holiday Inn Cartagena Morros. Tenemos el agrado de ofrecerle el Hotel más
+                        moderno para negocios o placer, en frente de una de las playas más lindas del mundo</p>
                     <a class="btn btn-primary btn-lg btn-reserva" href="https://www.holidaycartagena.co/" role="button"
                         target="_blank">Ver
                         más</a>
                 </div>
             </div>
 
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1>Hotel Santa Teresa</h1>
+                    <h1 class="card-title">Hotel Santa Teresa</h1>
+                    <h5 class="card-subtitle text-muted">Cartagena</h5>
+                </div>
+                <div>
+                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/228/228765900.jpg" alt="staTeresaCtg">
+
                 </div>
                 <div>
                     <p>Ubicado en el corazón de la ciudad amurallada, oferciendo habitaciones de lujo, servicios y
                         facilidades exclusivas</p>
-                    
-                </div>
-                <div>
-                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/228/228765900.jpg" alt="staTeresaCtg">
                     <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelcharlestonsantateresa.com/"
                         role="button" target="_blank">Ver más</a>
                 </div>
             </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1>Hotel Decameron</h1>
+                    <h1 class="card-title">Hotel Decameron</h1>
+                    <h5 class="card-subtitle text-muted">Cartagena</h5>
                 </div>
                 <div>
-                    
+                    <img src="https://i.travelapi.com/hotels/1000000/20000/17200/17188/8b3974da_b.jpg"
+                        alt="decameronCtg">
+
+                </div>
+                <div>
                     <p>El Hotel Decameron Cartagena está en Colombia, enfrente de la playa de Bocagrande. Ofrece 280
                         habitaciones, divididas en categoría estándar y junior suites, ...</p>
-                </div>
-                <div>
-                    <img src="https://i.travelapi.com/hotels/1000000/20000/17200/17188/8b3974da_b.jpg" alt="decameronCtg">
                     <a class="btn btn-primary btn-lg btn-reserva"
                         href="https://www.decameron.com/es/co-destinos/colombia/cartagena/decameron-cartagena"
                         role="button" target="_blank">Ver más</a>
                 </div>
             </div>
 
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1>Hotel Costa del Sol</h1>
-                </div>
-                <div>
-                            <p>Somos un importante y reconocido hotel ubicado en un exclusivo sector de Bocagrande de la ciudad
-                                de
-                                Cartagena. No dude en venir a conocernos ahora ...</p>
+                    <h1 class="card-title">Hotel Costa del Sol</h1>
+                    <h5 class="card-subtitle text-muted">Cartagena</h5>
                 </div>
                 <div>
                     <img src="https://cdn.precioyviajes.com/01/73/20/01732075_gp.jpg" alt="costaSolCtg">
+                </div>
+                <div>
+                    <p>Somos un importante y reconocido hotel ubicado en un exclusivo sector de Bocagrande de la ciudad
+                        de
+                        Cartagena. No dude en venir a conocernos ahora ...</p>
                     <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelcostadelsolcartagena.com/"
                         role="button" target="_blank">Ver más</a>
                 </div>
             </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1>Hotel Dann Carlton</h1>
+                    <h1 class="card-title">Hotel Dann Carlton</h1>
+                    <h5 class="card-subtitle text-muted">Cartagena</h5>
                 </div>
                 <div>
-                            <p>Nuestro Hotel en Cartagena, es único con acceso directo a la playa. El Hotel Dann Cartagena
-                                ofrece
-                                todo lo necesario para su viaje de negocios o vacaciones.</p>
+                    <img src="https://assets.website-files.com/5bf50a792b7f9949e1b32f33/5d0d2cd5f829e197ae56188f_img_hotel_dann_1.jpg"
+                        alt="dannCarltonCtg">
                 </div>
                 <div>
-                    <img src="https://assets.website-files.com/5bf50a792b7f9949e1b32f33/5d0d2cd5f829e197ae56188f_img_hotel_dann_1.jpg" alt="dannCarltonCtg">
+                    <p>Nuestro Hotel en Cartagena, es único con acceso directo a la playa. El Hotel Dann Cartagena
+                        ofrece
+                        todo lo necesario para su viaje de negocios o vacaciones.</p>
                     <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelesdann.com/dann-cartagena/"
                         role="button" target="_blank">Ver más</a>
                 </div>
