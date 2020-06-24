@@ -9,6 +9,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
 </head>
 
@@ -23,76 +24,83 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-                <li class="nav-item "><a href="./about.html" class="nav-link">Nosotros</a></li>
-                <li class="nav-item"><a href="./precios.html" class="nav-link">Precios</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item active"><a href="./precios.html" class="nav-link">Precios</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Términos y condiciones</a></li>
-                <li class="nav-item active"><a href="./contacto.html" class="nav-link">Contacto</a></li>
+                <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
             </ul>
         </div>
     </nav>
-    <div class="jumbotron">
 
+    <div class="jumbotron">
         <h1 class="display-4">Hoteles Cartagena</h1>
     </div>
-    <div class="container">        
+    <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
         </nav>
-        <h1>Dejame tu comentario</h1>
-        <form>
-            <div class="form-row">
-                <div class="form-group col-sm-6">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre"
-                    placeholder="Ingrese su nombre">
-                </div>
-                <div class="form-group col-sm-6">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" class="form-control" id="apellido"
-                    placeholder="Ingrese su apellido">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email"
-                placeholder="Ingrese su email">
-            </div>
-            <div class="form-row">
-                <div class="form-group col-sm-8">
-                    <label for="direccion">Direccion</label>
-                    <input type="text" class="form-control" id="direccion"
-                    placeholder="Ingrese su dirección">
-                </div>
-                <div class="form-group col-sm-4">
-                    <label for="ciudad">Ciudad</label>
-                    <select id="ciudad" class="form-control">
-                        <option selected>Medellín</option>
-                        <option selected>Bogotá</option>
-                        <option selected>Cali</option>
-                        <option selected>Cartagena</option>
-                        <option selected>Barranquilla</option>
-                    </select>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="comentario">Comentario</label>
-                <textarea id="comentario" class="form-control" rows="5"></textarea>
-            </div>
-            <div class="form-group">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" id="gridCheck" value="checkedValue">
-                    Quiero que me contacten
-                  </label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <th>Calidad</th>
+                    <th>Cartagena</th>
+                    <th>Santa Marta</th>
+                    <th>Santa Verónica</th>
+                    <th>San Andrés</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="oi oi-star"></span>
+                        </td>
+                        <td>$100</td>
+                        <td>$120</td>
+                        <td>$115</td>
+                        <td>$90</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="oi oi-star"></span><span class="oi oi-star"></span>
+                        </td>
+                        <td>$170</td>
+                        <td>$210</td>
+                        <td>$190</td>
+                        <td>$195</td>
+                    </tr>
+                    <tr>
+                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                class="oi oi-star"></span></td>
+                        <td>$270</td>
+                        <td>$310</td>
+                        <td>$290</td>
+                        <td>$295</td>
+                    </tr>
+                    <tr>
+                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                        <td>$370</td>
+                        <td>$3210</td>
+                        <td>$190</td>
+                        <td>$195</td>
+                    </tr>
+                    <tr>
+                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                class="oi oi-star"></span></td>
+                        <td>$270</td>
+                        <td>$310</td>
+                        <td>$290</td>
+                        <td>$295</td>
+                    </tr>
+                </tbody>
 
-        </form>
-        
+            </table>
+        </div>
+
+
     </div>
     <footer>
         <div class="row">
