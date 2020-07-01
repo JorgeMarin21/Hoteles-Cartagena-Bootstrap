@@ -50,5 +50,15 @@ img {
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+li a {
+    color: black;
+}
 
+.nav-pills > li > a.active {
+    background-color: blueviolet!important;
+}
+
+.tab-content {
+    padding-top: 10px;
 }
