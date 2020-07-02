@@ -123,7 +123,52 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
-                <div class="d-flex justify-content-center " style="margin-top: 20px;">
+                <div class="accordion" id="accordionTarjetas">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true"
+                                aria-controls="collapseBasica" style="text-decoration: none; font-weight: 500;">Tarjeta Básica</button>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="collapseBasica" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Puedes reservar en 3 cuotas sin intereses.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVip" aria-expanded="true"
+                                aria-controls="collapseVip" style="text-decoration: none; font-weight: 500;">Tarjeta VIP</button>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="collapseVip" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Puedes reservar en 6 cuotas sin intereses.
+                                Al llegar, recibirás una canasta de obsequios.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBlack" aria-expanded="true"
+                                aria-controls="collapseBlack" style="text-decoration: none; font-weight: 500;">Tarjeta Black</button>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="collapseBlack" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Puedes reservar en 12 cuotas sin intereses.
+                                Tienes acceso a todas las zonas del hotel, 20% de descuento en suite presidencial.
+                            </div>
+                        </div>
+                    </div>
+              </div>
+                <!-- <div class="d-flex justify-content-center " style="margin-top: 20px;">
                     <div class="card" style="width: 19rem;">
                         <div class="card-header"
                             style="background-color: blueviolet; color: white;  text-align: center; font-weight: bold;">
@@ -135,7 +180,7 @@
                             <li class="list-group-item"><span class="oi oi-credit-card"></span> Tarjeta Black</li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
                 Comentarios
