@@ -223,7 +223,8 @@
 
             <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
-                    <h1 class="card-title">Hotel Costa del Sol</h1>
+                    <h1 class="card-title" data-toggle="tooltip" data-placement="top"
+                        title="Ubicado en la península de Bocagrande">Hotel Costa del Sol</h1>
                     <h5 class="card-subtitle text-muted">Cartagena</h5>
                 </div>
                 <div>
@@ -284,10 +285,6 @@
                 </div>
             </div>
         </div>
-
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/popper.js/dist/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </div>
     <footer>
         <div class="row">
@@ -319,6 +316,14 @@
             </div>
         </div>
     </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $("[data-toggle='tooltip']").tooltip();
+        });
+    </script>
 </body>
 
 
