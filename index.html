@@ -199,7 +199,8 @@
                     <p>Ubicado en el corazón de la ciudad amurallada, oferciendo habitaciones de lujo, servicios y
                         facilidades exclusivas</p>
                     <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelcharlestonsantateresa.com/"
-                        role="button" target="_blank">Ver más</a>
+                        role="button" target="_blank" data-toggle="popover"
+                        data-content="El hotel tendrá disponibilidad post-cuarentena" title="Advertencia">Ver más</a>
                 </div>
             </div>
             <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
@@ -319,11 +320,17 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
+    <!-- <script>
         $(function() {
-            $("[data-toggle='tooltip']").tooltip();
+            $('[data-toggle="tooltip"]').tooltip();
+            $('[data-toggle="popover"]').popover();
         });
-    </script>
+    </script> -->
+    <!-- <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script> -->
 </body>
 
 
