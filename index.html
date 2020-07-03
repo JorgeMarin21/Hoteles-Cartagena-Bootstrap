@@ -51,7 +51,7 @@
         </nav>
         <div class="row">
             <div class="col-sm">
-                <p class="lead" style="font-weight: bold;">Bienvenido a la página de Hoteles.</p>
+                <p class="lead" style="font-weight: bold; font-size: x-large;">Bienvenido a la página de Hoteles.</p>
             </div>
             <div class="col-sm col-lg-12">
                 <p>Aquí podrás reservar la habitación que deseas en el hotel que deseas.</p>
@@ -59,41 +59,51 @@
             <div class="col-sm">
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" href="https://www.google.com/travel/hotels/Cartagena"
-                        role="button" target="_blank"style="font-weight: bold;">Ver más</a>
+                        role="button" target="_blank" style="font-weight: bold;">Ver más</a>
                 </p>
             </div>
         </div>
-        
+        <div>
+            <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#contacto">Subscribete al
+                newsletter</button>
+        </div>
         <hr class="my-4">
 
         <div class="row">
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" 
-                    aria-controls="multiCollapse1" style="font-weight: 500;">¿Cómo funciona?
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona"
+                    aria-expanded="false" aria-controls="multiCollapse1" style="font-weight: 500;">¿Cómo funciona?
                 </button>
             </div>
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" 
-                    aria-controls="multiCollapse2" style="font-weight: 500;">¿Dónde puedo reservar?
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva"
+                    aria-expanded="false" aria-controls="multiCollapse2" style="font-weight: 500;">¿Dónde puedo
+                    reservar?
                 </button>
             </div>
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" 
-                    aria-controls="multiCollapse3" style="font-weight: 500;">¿Cómo pago?
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago"
+                    aria-expanded="false" aria-controls="multiCollapse3" style="font-weight: 500;">¿Cómo pago?
                 </button>
             </div>
         </div>
-        
 
-        <div class="row">
-            <div class="col-sm-4 collapse multi-collapse" id="funciona" style="padding-right: 40px;">
-                <p>Elige el hotel que quieras reservar en la ciudad de Cartagena</p>
+
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-sm-4">
+                <div class="collapse multi-collapse" id="funciona" style="padding-right: 40px;font-weight: 500;">
+                    <p>Elige el hotel que quieras reservar en la ciudad de Cartagena</p>
+                </div>
             </div>
-            <div class="col-sm-4 collapse multi-collapse" id="reserva"style="padding-right: 40px;">
-                <p>Elige el hotel que te interese y luego realiza la reserva</p>
+            <div class="col-sm-4">
+                <div class="collapse multi-collapse" id="reserva" style="padding-right: 40px;font-weight: 500;">
+                    <p>Elige el hotel que te interese y luego realiza la reserva</p>
+                </div>
             </div>
-            <div class="col-sm-4 collapse multi-collapse" id="pago"style="font-weight: bold; padding-right: 40px; ">
-                <p>Utiliza tu tarjeta de crédito o paga con PSE</p>
+            <div class="col-sm-4">
+                <div class="collapse multi-collapse" id="pago" style="font-weight: 500; padding-right: 40px; ">
+                    <p>Utiliza tu tarjeta de crédito o paga con PSE</p>
+                </div>
             </div>
         </div>
 
@@ -103,7 +113,8 @@
             <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
                     <h1 class="card-title">Hotel Hilton</h1>
-                    <h5 class="card-subtitle text-muted">Cartagena <span class="badge badge-pill badge-danger">Nuevo</span></h5>
+                    <h5 class="card-subtitle text-muted">Cartagena <span
+                            class="badge badge-pill badge-danger">Nuevo</span></h5>
                 </div>
                 <div>
                     <img src="https://asset3.zankyou.com/images/mag-post/602/9ae0/685//-/co/wp-content/uploads/2017/12/hilton-3.png"
@@ -229,7 +240,9 @@
             <div class="card card-hotel d-flex flex-column justify-content-between mr-2 mb-4">
                 <div>
                     <h1 class="card-title">Hotel Dann Carlton</h1>
-                    <h5 class="card-subtitle text-muted">Cartagena <span class="badge badge-pill badge-danger">Nuevo</span></h5>
+                    <h5 class="card-subtitle text-muted">Cartagena
+                        <span class="badge badge-pill badge-danger">Nuevo</span>
+                    </h5>
                 </div>
                 <div>
                     <img src="https://assets.website-files.com/5bf50a792b7f9949e1b32f33/5d0d2cd5f829e197ae56188f_img_hotel_dann_1.jpg"
@@ -241,6 +254,33 @@
                         todo lo necesario para su viaje de negocios o vacaciones.</p>
                     <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelesdann.com/dann-cartagena/"
                         role="button" target="_blank">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLavel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="form-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Tu email:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Mensaje:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Enviar</button>
+                    </div>
                 </div>
             </div>
         </div>
