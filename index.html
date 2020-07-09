@@ -64,7 +64,7 @@
             </div>
         </div>
         <div>
-            <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#contacto">Subscribete al
+            <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#contacto" id="contactoBtn">Subscribete al
                 newsletter</button>
         </div>
         <hr class="my-4">
@@ -218,7 +218,7 @@
 
                 </div>
                 <div>
-                    <p>Ubicado en el corazón de la ciudad amurallada, oferciendo habitaciones de lujo, servicios y
+                    <p>Ubicado en el corazón de la ciudad amurallada, ofreciendo habitaciones de lujo, servicios y
                         facilidades exclusivas</p>
                     <a class="btn btn-primary btn-lg btn-reserva" href="https://www.hotelcharlestonsantateresa.com/"
                         role="button" target="_blank" data-toggle="popover"
@@ -348,6 +348,24 @@
             $('[data-toggle="popover"]').popover();
             $('.carousel').carousel({
                 interval: 3000
+            });
+            $('#contacto').on('show.bs.modal', function (e){
+                console.log('El modal se está mostrando', e);
+                $('#contactoBtn').removeClass('btn-primary');
+                $('#contactoBtn').addClass('btn-secondary');
+                $('#contactoBtn').prop('disabled', true);
+            });
+            $('#contacto').on('shown.bs.modal', function (e){
+                console.log('El modal se mostró', e);
+            });
+            $('#contacto').on('hide.bs.modal', function (e){
+                console.log('El modal se está ocultando', e);
+            });
+            $('#contacto').on('hidden.bs.modal', function (e){
+                console.log('El modal se ocultó', e);
+                $('#contactoBtn').removeClass('btn-secondary');
+                $('#contactoBtn').addClass('btn-primary');
+                $('#contactoBtn').prop('disabled', false);
             });
         });
     </script>
