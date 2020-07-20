@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .jumbotron {
-  background-color: #f54242;
+  background-color: #7812b2;
   color: white;
   margin-top: 10px;
   padding-bottom: 10px; }
@@ -14,7 +14,7 @@
 
 footer {
   padding: 10px 10px 0 10px;
-  background-color: #f54242;
+  background-color: #7812b2;
   color: white;
   margin-top: 60px;
   margin-bottom: 0px; }
@@ -50,7 +50,7 @@ li a {
   color: black; }
 
 .nav-pills > li > a.active {
-  background-color: #f54242 !important; }
+  background-color: #7812b2 !important; }
 
 .tab-content {
   padding-top: 10px; }
